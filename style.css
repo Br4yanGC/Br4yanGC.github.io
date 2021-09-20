@@ -1,0 +1,109 @@
+body{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.cont1{
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+}
+.cont2{
+    background-color: white;
+    color: black;
+    padding: 10px 25px;
+}
+
+.header{
+    position: relative;
+    max-height: 13vw;
+    overflow: hidden;
+    padding: 0%;
+}
+.header img{
+    position: relative;
+    width: 100%;
+    top: -100px;   
+}
+.header .text{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+}
+
+
+.aboutMe {
+    display: flex;
+}
+.aboutMe .imgs{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.aboutMe .imgs img{
+    width: 100%;
+    margin: auto;
+}
+.aboutMe .text{
+    width: 50%;
+    margin-right: 20px;
+}
+.aboutMe .text button{
+    padding-top: 0px;
+}
+
+.languagesTools{
+    display: flex;
+}
+.languagesTools .imgs{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.languagesTools .imgs img:nth-child(-n+3){
+    width: 100px;
+    height: 100px;
+    padding: 10px 15px;
+    margin: auto;
+}
+.languagesTools .imgs img:nth-child(4){
+    width: 150px;
+    padding: 10px 20px;
+    margin: auto;
+}
+.languagesTools .text{
+    margin: 0px 20px;
+    width: 50%;
+}
+
+.githubProfile{
+    display: flex;
+}
+.githubProfile .text{
+    width: 50%;
+}
+.githubProfile .imgs{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+.githubProfile .imgs img{
+    width: 180px;
+}
+
+.funFact{
+    display: flex;
+}
+.funFact .text{
+    width: 50%;
+}
+.funFact .imgs{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.funFact .imgs img{
+    width: 170px;   
+}
