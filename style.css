@@ -92,6 +92,9 @@ body{
 .githubProfile .imgs img{
     width: 180px;
 }
+.githubProfile .text a{
+    text-decoration: none;
+}
 
 .funFact{
     display: flex;
